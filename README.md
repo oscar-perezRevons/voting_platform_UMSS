@@ -111,4 +111,18 @@ Desde el directorio `packages/backend`:
 
 ```bash
 npm run dev
-# El servidor se iniciará en http://localhost:PORT
+# El servidor se iniciará en http://loc
+
+### 2. Iniciar el Frontend (Aplicación Web)
+
+Desde el directorio `packages/frontend`:
+
+```bash
+npm run dev
+# La aplicación web se iniciará en http://localhost:5173/
+
+
+
+
+
+alhost:PORT
