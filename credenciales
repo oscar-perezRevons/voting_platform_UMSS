@@ -1,0 +1,2 @@
+Base de Datos Neon: psql 'postgresql://neondb_owner:npg_c8nkfdT9KLCB@ep-twilight-hall-a81jsfxq-pooler.eastus2.azure.neon.tech/voting_db?sslmode=require&channel_binding=require'
+VotingFactory desplegado en: 0x2caC0F0eBA822880ce66Bbf8A515AE6C606D0e58
