@@ -111,8 +111,8 @@ Desde el directorio `packages/backend`:
 
 ```bash
 npm run dev
-# El servidor se iniciará en http://loc
-
+# El servidor se iniciará en http://localhost:PORT (definido en .env)
+```
 ### 2. Iniciar el Frontend (Aplicación Web)
 
 Desde el directorio `packages/frontend`:
@@ -120,9 +120,16 @@ Desde el directorio `packages/frontend`:
 ```bash
 npm run dev
 # La aplicación web se iniciará en http://localhost:5173/
+```
 
+### 3. Ejecutar Contratos Inteligentes (Tareas de Desarrollo)
 
+Desde el directorio `packages/contracts`:
 
+```bash
+# Compilar los contratos
+npx hardhat compile
 
-
-alhost:PORT
+# Ejecutar pruebas (requiere configurar la red de prueba)
+npx hardhat test
+```
